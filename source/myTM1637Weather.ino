@@ -5,6 +5,16 @@ based on LilyGO TTGO T7 Mini32 ESP32-WROVER
 but you can use any esp board with WIFI
 also used a TM1637Display with decimal point or semicolums
 case: https://www.tinkercad.com/things/hqS0UfUXTsO-wrover32-tm1637-casev1
+
+Displays alternating:
+- internet time
+- date
+- outside temperature
+- windspeed and direction U means west
+- internet time
+- outside minimum temperature
+- outside maximum temperature
+
 */
 #include <TM1637Display.h>
 #define CLK 27
@@ -69,9 +79,9 @@ const uint8_t circlel[] = {SEG_C | SEG_D | SEG_E | SEG_G };   // Circle low
 #define rightbutton 39
 //#include <ESP32Ping.h>
 #include <HTTPClient.h>
-#include "gewoon_secrets.h"
+#include "my_secrets.h"
 /*
-// gewoon_secrets.h: wifi passwords and weather.api get yours at api.openweathermap.org
+// my_secrets.h: wifi passwords and weather.api get yours at api.openweathermap.org
 const char* ssid     = "mySSID";        
 const char* password = "myWIFIpassword";
 String town="Apeldoorn";//weather api           
