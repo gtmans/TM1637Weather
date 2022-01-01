@@ -1,8 +1,6 @@
-//former known as MyWeather-TM1637.v15-clean
 /*
-In Arduino IDE: Boards ESP32 Arduino /ESP32 Wrover Module
 https://github.com/gtmans/TM1637Weather
-https://www.tinkercad.com/things/hqS0UfUXTsO-wrover32-tm1637-casev1
+In Arduino IDE: Boards ESP32 Arduino /ESP32 Wrover Module
 based on LilyGO TTGO T7 Mini32 ESP32-WROVER 
 but you can use any esp board with WIFI
 also used a TM1637Display with decimal point or semicolums
