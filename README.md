@@ -12,6 +12,20 @@ Displays alternating:
 - outside minimum temperature
 - outside maximum temperature
 
+source: myTM1637Weather.ino
+
  ![TM1637Weather](https://github.com/gtmans/TM1637Weather/blob/main/media/IMG_9353~photo.JPEG)
+ 
+ Added another TM1637 for extra info:
+ 
+ - inside CO2 ppm (MQ-sensor)
+ - inside temperature
+ - inside humidity
+ - inside pressure 
+
+source: myDualTM1637Weather.ino
+
+ ![TM1637Weather](https://github.com/gtmans/TM1637Weather/blob/main/media/IMG_9835~photo.jpg)
+ 
 
 
