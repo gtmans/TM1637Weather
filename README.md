@@ -12,3 +12,4 @@ Displays alternating:
 - outside minimum temperature
 - outside maximum temperature
 
+IMG_9353~photo.JPEG
