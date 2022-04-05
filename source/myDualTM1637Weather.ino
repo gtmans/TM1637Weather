@@ -158,6 +158,15 @@ const uint8_t circlel[] = {SEG_C | SEG_D | SEG_E | SEG_G };   // Circle low
 #include <ESP32Ping.h>
 #include <HTTPClient.h>
 #include "secrets.h"
+/*
+// secrets.h: wifi passwords and weather.api get yours at api.openweathermap.org
+const char* ssid     = "mySSID";        
+const char* password = "myWIFIpassword";
+String town="Apeldoorn";//weather api           
+String Country="NL";               
+const String key = "095e789fe1a290c29b29bbb364346bcd";//get your own
+*/
+
 //RTC
 #include <ArduinoJson.h>
 #include <NTPClient.h>
