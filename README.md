@@ -12,6 +12,6 @@ Displays alternating:
 - outside minimum temperature
 - outside maximum temperature
 
-https://github.com/gtmans/TM1637Weather/blob/main/media/IMG_9353~photo.JPEG
+ ![TM1637Weather](https://github.com/gtmans/TM1637Weather/blob/main/media/IMG_9353~photo.JPEG)
 
 
