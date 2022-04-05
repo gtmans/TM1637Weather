@@ -1,6 +1,30 @@
-//board LilyGO TTGO T7 Mini32 ESP32-WROVER IDE ESP32 Wrover Module
-//pinout https://github.com/LilyGO/TTGO-T7-Demo
-//
+/*
+https://github.com/gtmans/TM1637Weather
+based on LilyGO TTGO T7 Mini32 ESP32-WROVER 
+pinout https://github.com/LilyGO/TTGO-T7-Demo
+but you can use any esp board with WIFI
+also used a TM1637Display with decimal point or semicolums
+case: https://www.tinkercad.com/things/hqS0UfUXTsO-wrover32-tm1637-casev1
+In Arduino IDE: Boards ESP32 Arduino /ESP32 Wrover Module
+
+this version has 2 TM1637 displays
+
+Displays alternating:
+  DISPLAY 1                                 DISPLAY 2
+- internet time                           - CO2 readings in PPM using a MQ135
+- date                                    - ppnn (meaning PPM)
+- outside temperature                     - inside temperature using BME280
+- windspeed and direction uu means west
+- outside humidity                        - inside temperature using BME280
+- internet time
+- outside minimum temperature             - inside pressure
+- outside maximum temperature             - nnb (meaning Millibar)
+
+and 2 leds:
+red   led meaning outside it is freezing
+green led meaning outside it is >= 1 degree celcius (meaning I can turn on airco for heating)
+
+*/
 bool debug   = false;
 bool precise = false;
 bool setmeup = false;
